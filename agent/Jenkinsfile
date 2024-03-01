@@ -9,7 +9,11 @@ pipeline {
         }
         stage('Test') { 
             steps {
+                sh '''
+                ls -lrt
                 sleep(5)
+                '''
+
             }
         }
         stage('Deploy') { 
