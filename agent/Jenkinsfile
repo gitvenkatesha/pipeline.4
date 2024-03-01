@@ -11,8 +11,9 @@ pipeline {
             steps {
                 sh '''
                 ls -lrt
+            
                 sleep(5)
-                '''
+                    '''
 
             }
         }
